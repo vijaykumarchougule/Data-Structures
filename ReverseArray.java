@@ -1,3 +1,5 @@
+// Reserver Array written by Vijaykumar
+
 public class ReverseArray {
     static void ArrayReverse(int arr[], int size) {
         int temp;
