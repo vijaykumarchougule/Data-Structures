@@ -4,7 +4,7 @@ public class ReverseArray {
     static void ArrayReverse(int arr[], int size) {
         int temp;
         int start = 0;
-        int end = 5;
+        int end = size - 1;
         while (start < end) {
             temp = arr[start];
             arr[start] = arr[end];
